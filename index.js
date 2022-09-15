@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "src");
-const outputPath = path.join(OUTPUT_DIR, "template.js");
+const outputPath = path.join(OUTPUT_DIR, "index.html");
 const generateTeam = require("./src/template")
 
 teamArray = [];
